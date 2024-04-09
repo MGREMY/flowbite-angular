@@ -1,3 +1,3 @@
-export default import('../dist/docs-static/server/server.js').then((module) =>
+export default import('../dist/docs-static/server/main.js').then((module) =>
   module.app(),
 );
