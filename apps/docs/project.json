@@ -98,6 +98,24 @@
       },
       "defaultConfiguration": "production"
     },
+    "start": {
+      "executor": "@angular-devkit/build-angular:ssr-dev-server",
+      "options": {
+        "browserTarget": "docs:build",
+        "serverTarget": "docs:server"
+      },
+      "configurations": {
+        "production": {
+          "browserTarget": "docs:build:development",
+          "serverTarget": "docs:server:development"
+        },
+        "development": {
+          "browserTarget": "docs:build:production",
+          "serverTarget": "docs:server:production"
+        }
+      },
+      "defaultConfiguration": "development"
+    },
     "test": {
       "executor": "@nx/jest:jest",
       "outputs": ["{workspaceRoot}/coverage/apps/docs"],
