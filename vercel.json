@@ -6,11 +6,11 @@
   "rewrites": [
     {
       "source": "/(.*)",
-      "destination": "/docs"
+      "destination": "/api"
     }
   ],
   "functions": {
-    "docs/index.js": {
+    "api/index.js": {
       "includeFiles": "dist/docs-static/server/**"
     }
   }
