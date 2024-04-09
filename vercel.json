@@ -2,7 +2,7 @@
   "version": 2,
   "public": true,
   "name": "flowbite-angular",
-  "devcommand": "node dist/docs-static/server/main.js",
+  "devCommand": "node dist/docs-static/server/main.js",
   "rewrites": [
     {
       "source": "/(.*)",
