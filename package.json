@@ -12,6 +12,7 @@
     "type": "git"
   },
   "scripts": {
+    "build": "nx run build",
     "build:lib": "nx run flowbite-angular:build && cp README.md LICENSE dist/libs/flowbite-angular",
     "lint": "nx run-many --target lint --all",
     "test": "nx run-many --target test --all",
