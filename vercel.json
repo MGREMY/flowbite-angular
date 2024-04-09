@@ -11,7 +11,7 @@
   ],
   "functions": {
     "api/index.js": {
-      "includeFiles": "dist/docs-static/server/**"
+      "includeFiles": "dist/docs-static/**"
     }
   }
 }
